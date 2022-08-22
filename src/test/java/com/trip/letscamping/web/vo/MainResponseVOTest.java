@@ -10,7 +10,7 @@ public class MainResponseVOTest {
     public void 롬북_기능_테스트(){
         //given
         String name = "test";
-        int amount = 1000;
+        int amount = 1001;
 
         //when
         MainResponseVO vo = new MainResponseVO(name, amount);

@@ -14,6 +14,6 @@ public class MainController {
     @GetMapping("/hello/dto")
     public MainResponseVO hellodto(@RequestParam("name") String name, @RequestParam("amount") int amount){
         return new MainResponseVO(name,amount);
-        //http://localhost:8080/hello/dto?name=leehyungang&amount=1
+        //http://localhost:8080/hello/dto?name=leehyungang&amount=2
     }
 }

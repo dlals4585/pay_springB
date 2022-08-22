@@ -29,7 +29,7 @@ public class MainControllerTest {
     @Test
     public void hellodto가_리턴된다() throws Exception{
         String name = "hello";
-        int amount = 1000;
+        int amount = 1001;
         mvc.perform(get("/hello/dto").param("name",name).param("amount",String.valueOf(amount)))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.name", is(name)))
