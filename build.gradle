@@ -17,6 +17,8 @@ plugins {
     id 'java'
     id 'eclipse'
 }
+//version '2.7.2'
+//version '1.0.12.RELEASE'
 /*apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
